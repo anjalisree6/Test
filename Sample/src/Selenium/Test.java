@@ -14,17 +14,17 @@ public class Test {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		/*System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions Options = new ChromeOptions();
 		Options.addArguments("--disable-infobars");
-		WebDriver d1=new ChromeDriver(Options);*/
+		WebDriver d1=new ChromeDriver(Options);
 		
-		System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\geckodriver-v0.24.0-win64\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\geckodriver-v0.24.0-win64\\geckodriver.exe");
 		WebDriver d1=new FirefoxDriver();
 		d1.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		d1.manage().window().maximize();
 		d1.get("https://www.toolsqa.com/automation-practice-form/");
-		Thread.sleep(3000);
+		Thread.sleep(3000);*/
 		
 		((JavascriptExecutor)d1).executeScript("scroll(0, 600)");
 
